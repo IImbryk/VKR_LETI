@@ -1,0 +1,52 @@
+%%% Титульник ВКР / Thesis title 
+%%
+%% добавить лист в pdf-навигацию 
+%%
+\pdfbookmark[-1]{\pdfTitle}{tit}
+%%
+\thispagestyle{empty}%
+\makeatletter
+\newgeometry{top=2cm,bottom=2cm,left=3cm,right=1cm,headsep=0cm,footskip=0cm}
+\savegeometry{NoFoot}%
+\makeatother
+
+\normalsize{}
+\begin{center}{
+\hfill \break {\textbf{МИНОБРНАУКИ РОССИИ}}\\
+{\textbf{САНКТ-ПЕТЕРБУРГСКИЙ ГОСУДАРСТВЕННЫЙ}}\\
+{\textbf{ЭЛЕКТРОТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ}}\\
+{\textbf{«ЛЭТИ» ИМ. В.И. УЛЬЯНОВА (ЛЕНИНА)}}\\
+{\textbf{Кафедра АПУ}}\\
+\hfill \break
+
+
+
+\normalsize{}
+\vspace{5cm}
+\textbf{ОТЧЕТ}\\
+\textbf{по преддипломной практике}\\
+\textbf{Тема: Применение методов обучения с подкреплением}\\
+\textbf{ в задачах управления}\\
+\vspace{6cm}
+ 
+\begin{flushleft}
+ \hspace{1cm} Студентка \hspace{1,7cm} гр. 5391 \hspace{2cm} \underline{\hspace{3cm}} \hspace{0,2cm} Шпаковская И.И. \\ 
+ \vspace{5mm}
+ \hspace{1cm} Руководитель \hspace{1cm} д.т.н., профессор \hspace{0,2cm} \underline{\hspace{3cm}} \hspace{0,2cm}  Душин С.Е.\\ 
+
+\end{flushleft}
+
+\vspace{1cm}
+Санкт-Петербург \\ 2021 
+}\end{center}
+\thispagestyle{empty} % выключаем отображение номера для этой страницы
+ 
+% КОНЕЦ ТИТУЛЬНОГО ЛИСТА
+
+
+\vspace{0pt plus4fill}% 
+
+
+
+\restoregeometry
+\newpage

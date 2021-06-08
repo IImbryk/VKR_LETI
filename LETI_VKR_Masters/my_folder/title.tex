@@ -1,0 +1,67 @@
+%%% Титульник ВКР / Thesis title 
+%%
+%% добавить лист в pdf-навигацию 
+%%
+\pdfbookmark[-1]{\pdfTitle}{tit}
+%%
+\thispagestyle{empty}%
+\makeatletter
+\newgeometry{top=2cm,bottom=2cm,left=3cm,right=1cm,headsep=0cm,footskip=0cm}
+\savegeometry{NoFoot}%
+\makeatother
+
+
+\begin{center}
+\hfill \break
+\small{\textbf{<<Санкт-Петербургский государственный электротехнический университет}}\\
+\small{\textbf{<<ЛЭТИ>> им. В. И. Ульянова (Ленина)>>}}\\
+\small{\textbf{(СПБГЭТУ "ЛЭТИ")}}\\
+\hfill \break
+
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Направление} & \hspace{90pt}27.04.04 - Управление в технических системах \\
+\textbf{Программа} &  \hspace{90pt}Управление и информационные технологии \\ & \hspace{90pt} в технических системах \\
+\textbf{Факультет} & \hspace{90pt}КТИ \\
+\textbf{Кафедра} & \hspace{90pt}АПУ \\
+\\
+\textit{К защите допустить} & \\
+Зав. кафедрой &  \hspace{220pt} Шестопалов М Ю.
+\end{tabular}
+\end{center}
+
+\normalsize{}
+\vspace{2.5cm}
+\large{\textbf{ВЫПУСКНАЯ КВАЛИФИКАЦИОННАЯ РАБОТА МАГИСТРА}}\\
+\vspace{1cm}
+\normalsize{\textbf{Тема: ПРИМЕНЕНИЕ МЕТОДОВ 
+		ОБУЧЕНИЯ С ПОДКРЕПЛЕНИЕМ В ЗАДАЧАХ УПРАВЛЕНИЯ
+		}}\\
+\vspace{1cm}
+ 
+\begin{flushleft}
+ \hspace{1cm} Студент \hspace{6,3cm} \underline{\hspace{3cm}}  Шпаковская И.И. \\ 
+ \vspace{5mm}
+ \hspace{1cm} Руководитель \hspace{1cm} д.т.н., профессор \hspace{0,2cm} \underline{\hspace{3cm}}  Душин С.Е.\\ 
+ \vspace{5mm}
+ \hspace{1cm} Консультанты \hspace{1cm} к.т.н., доцент \hspace{1,0cm} \underline{\hspace{3cm}}  Белаш О.Ю.\\ 
+  \vspace{5mm}
+ \hspace{5,2cm} к.т.н., доцент \hspace{1cm} \underline{\hspace{3cm}}  Власенко С.В.\\ 
+  \vspace{5mm}
+ \hspace{5,2cm} д.э.н., доцент \hspace{1cm} \underline{\hspace{3cm}}  Сулейманкадиева А.Э.\\ 
+\end{flushleft}
+
+\vspace{1cm}
+Санкт-Петербург \\ 2021 
+\end{center}
+\thispagestyle{empty} % выключаем отображение номера для этой страницы
+ 
+% КОНЕЦ ТИТУЛЬНОГО ЛИСТА
+
+
+\vspace{0pt plus4fill}% 
+
+
+
+\restoregeometry
+\newpage
